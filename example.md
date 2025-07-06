@@ -7,7 +7,7 @@ seoMeta:
   ogTitle: ktym4a Slidev theme
   ogDescription: ktym4a demo Slidev
   ogImage: https://ktym4a.me/images/ogp.png
-  ogUrl: 
+  ogUrl:
   twitterCard: summary
   twitterTitle: ktym4a Slidev theme
   twitterDescription: ktym4a demo Slidev

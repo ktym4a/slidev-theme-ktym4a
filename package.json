@@ -32,7 +32,8 @@
     "build": "slidev build example.md",
     "dev": "slidev example.md --open",
     "format": "prettier . --write",
-    "format:ci": "prettier . --check"
+    "format:ci": "prettier . --check",
+    "changeset": "changeset"
   },
   "peerDependencies": {
     "@slidev/types": ">=0.52.0"
@@ -41,6 +42,8 @@
     "@catppuccin/palette": "^1.7.1"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.5",
     "@slidev/cli": "^52.0.0",
     "@slidev/types": "^52.0.0",
     "prettier": "3.6.2",
