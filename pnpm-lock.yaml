@@ -22,10 +22,13 @@ importers:
         version: 3.6.2
       prettier-plugin-organize-imports:
         specifier: ^4.1.0
-        version: 4.1.0(prettier@3.6.2)(typescript@5.8.3)
+        version: 4.1.0(prettier@3.6.2)(typescript@5.8.3)(vue-tsc@3.0.1(typescript@5.8.3))
       prettier-plugin-slidev:
         specifier: ^1.0.5
         version: 1.0.5(prettier@3.6.2)
+      vue-tsc:
+        specifier: ^3.0.1
+        version: 3.0.1(typescript@5.8.3)
 
 packages:
   '@ampproject/remapping@2.3.0':
@@ -1517,6 +1520,12 @@ packages:
     resolution:
       {
         integrity: sha512-QDybtQyO3Ms/NjFqNHTC5tbDN2oK5VH7ZaKrcubtfHBDj63n2pizHC3wlMQ+iT55kQXZUUAbmBX5L1C8CHFeBw==,
+      }
+
+  '@volar/typescript@2.4.17':
+    resolution:
+      {
+        integrity: sha512-3paEFNh4P5DkgNUB2YkTRrfUekN4brAXxd3Ow1syMqdIPtCZHbUy4AW99S5RO/7mzyTWPMdDSo3mqTpB/LPObQ==,
       }
 
   '@vue/babel-helper-vue-transform-on@1.4.0':
@@ -4656,6 +4665,15 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
+  vue-tsc@3.0.1:
+    resolution:
+      {
+        integrity: sha512-UvMLQD0hAGL1g/NfEQelnSVB4H5gtf/gz2lJKjMMwWNOUmSNyWkejwJagAxEbSjtV5CPPJYslOtoSuqJ63mhdg==,
+      }
+    hasBin: true
+    peerDependencies:
+      typescript: '>=5.0.0'
+
   vue@3.5.17:
     resolution:
       {
@@ -5859,6 +5877,12 @@ snapshots:
       '@volar/source-map': 2.4.17
 
   '@volar/source-map@2.4.17': {}
+
+  '@volar/typescript@2.4.17':
+    dependencies:
+      '@volar/language-core': 2.4.17
+      path-browserify: 1.0.1
+      vscode-uri: 3.0.8
 
   '@vue/babel-helper-vue-transform-on@1.4.0': {}
 
@@ -7317,10 +7341,12 @@ snapshots:
       image-size: 1.2.1
       jszip: 3.10.1
 
-  prettier-plugin-organize-imports@4.1.0(prettier@3.6.2)(typescript@5.8.3):
+  prettier-plugin-organize-imports@4.1.0(prettier@3.6.2)(typescript@5.8.3)(vue-tsc@3.0.1(typescript@5.8.3)):
     dependencies:
       prettier: 3.6.2
       typescript: 5.8.3
+    optionalDependencies:
+      vue-tsc: 3.0.1(typescript@5.8.3)
 
   prettier-plugin-slidev@1.0.5(prettier@3.6.2):
     dependencies:
@@ -7894,6 +7920,12 @@ snapshots:
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.17(typescript@5.8.3)
+
+  vue-tsc@3.0.1(typescript@5.8.3):
+    dependencies:
+      '@volar/typescript': 2.4.17
+      '@vue/language-core': 3.0.1(typescript@5.8.3)
+      typescript: 5.8.3
 
   vue@3.5.17(typescript@5.8.3):
     dependencies:
