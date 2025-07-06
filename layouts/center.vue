@@ -21,7 +21,10 @@ watch(currentSlideNo, () => {
 </template>
 
 <style scoped>
-:slotted(h1, h2, h3, a:hover) {
+:slotted(h1),
+:slotted(h2),
+:slotted(h3),
+:slotted(a:hover) {
   color: v-bind(textColor) !important;
 }
 </style>

@@ -2,6 +2,18 @@
 theme: ./
 colorScheme: dark
 transition: fade
+favicon: '/assets/favicon.svg'
+seoMeta:
+  ogTitle: ktym4a Slidev theme
+  ogDescription: ktym4a demo Slidev
+  ogImage: https://ktym4a.me/images/ogp.png
+  ogUrl: 
+  twitterCard: summary
+  twitterTitle: ktym4a Slidev theme
+  twitterDescription: ktym4a demo Slidev
+  twitterImage: https://ktym4a.me/images/ogp.png
+  twitterSite: '@ktym4a_s'
+  twitterUrl: https://x.com/ktym4a_s
 ---
 
 # Slidev Theme Starter

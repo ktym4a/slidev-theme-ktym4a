@@ -54,8 +54,8 @@
     "defaults": {
       "transition": "fade",
       "fonts": {
-        "sans": "Nunito Sans",
-        "mono": "Fira Code"
+        "sans": "ml, Inter",
+        "mono": "ml"
       }
     }
   },
