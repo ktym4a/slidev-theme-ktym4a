@@ -26,7 +26,7 @@ Add the following to your slide's frontmatter:
 
 ```yaml
 ---
-theme: @ktym4a/slidev-theme-ktym4a
+theme: '@ktym4a/slidev-theme-ktym4a'
 ---
 ```
 
