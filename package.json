@@ -1,0 +1,61 @@
+{
+  "name": "@ktym4a/slidev-theme-ktym4a",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "ktym4a's theme for slidev",
+  "author": {
+		"email": "shoma@ktym4a.me",
+		"name": "ktym4a",
+		"url": "https://ktym4a.me"
+	},
+  "license": "MIT",
+  "homepage": "https://github.com/ktym4a/slidev-theme-ktym4a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktym4a/slidev-theme-ktym4a"
+  },
+  "bugs": {
+    "url": "https://github.com/ktym4a/slidev-theme-ktym4a/issues"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev",
+    "catppuccin",
+    "theme",
+    "pastel"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.52.0"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "format": "prettier . --write",
+    "format:ci": "prettier . --check"
+  },
+  "peerDependencies": {
+    "@slidev/types": ">=0.52.0"
+  },
+  "dependencies": {
+    "@catppuccin/palette": "^1.7.1"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/types": "^52.0.0",
+    "prettier": "3.6.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-slidev": "^1.0.5"
+  },
+  "//": "Learn more: https://sli.dev/guide/write-theme.html",
+  "slidev": {
+    "colorSchema": "dark",
+    "defaults": {
+      "transition": "fade",
+      "fonts": {
+        "sans": "Nunito Sans",
+        "mono": "Fira Code"
+      }
+    }
+  }
+}

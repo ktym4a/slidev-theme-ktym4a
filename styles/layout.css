@@ -1,0 +1,74 @@
+#app {
+  #slide-content {
+    .slidev-page {
+      --at-apply: px-4 py-4 h-full text-text text-xl rounded-md overflow-hidden;
+    }
+    .grid-cols-2 > *:last-child {
+      position: relative;
+    }
+
+    .slidev-layout {
+      --at-apply: relative px-6 py-4 h-full;
+
+      h1,
+      h2,
+      h3 {
+        --at-apply: before:pr-3 before:text-text;
+      }
+
+      h1 {
+        --at-apply: text-5xl font-black mb-4 before:content-[ '#'] leading-16;
+      }
+
+      h2 {
+        --at-apply: text-3xl font-bold before:content-[ '##'] mb-2 leading-10
+          mt-8;
+      }
+
+      h3 {
+        --at-apply: text-2xl font-bold before:content-[ '###'] mb-2 leading-9
+          mt-8;
+      }
+
+      table {
+        --at-apply: text-text my-4;
+      }
+
+      table th {
+        --at-apply: border-text px-2 py-2;
+      }
+
+      table td {
+        --at-apply: border-text py-2;
+      }
+
+      p,
+      li {
+        --at-apply: leading-8;
+      }
+
+      li {
+        --at-apply: list-disc my-2;
+      }
+
+      a {
+        --at-apply: inline-block transition-filter duration-1000 border-0 underline decoration-dashed underline-offset-4 ease-in-out hover:saturate-200 hover:saturate-350;
+      }
+    }
+    .slidev-layout.center {
+      --at-apply: grid place-items-center text-center;
+      h1 {
+        --at-apply: text-6xl leading-16 mx-0 before:content-none mb-0;
+      }
+    }
+    .slidev-layout.cover {
+      --at-apply: grid place-items-center text-center;
+      h1 {
+        --at-apply: text-transparent bg-clip-text bg-gradient-to-r from-green to-sky text-6xl leading-16 mx-0 before:content-none mb-0;
+      }
+      h1 + p {
+        --at-apply: mt-1 leading-14 text-3xl;
+      }
+    }
+  }
+}
