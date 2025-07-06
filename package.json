@@ -2,12 +2,12 @@
   "name": "@ktym4a/slidev-theme-ktym4a",
   "version": "0.0.1",
   "type": "module",
-  "description": "ktym4a's theme for slidev",
+  "description": "ktym4a's theme for Slidev",
   "author": {
-		"email": "shoma@ktym4a.me",
-		"name": "ktym4a",
-		"url": "https://ktym4a.me"
-	},
+    "email": "shoma@ktym4a.me",
+    "name": "ktym4a",
+    "url": "https://ktym4a.me"
+  },
   "license": "MIT",
   "homepage": "https://github.com/ktym4a/slidev-theme-ktym4a",
   "repository": {
@@ -57,5 +57,6 @@
         "mono": "Fira Code"
       }
     }
-  }
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }
