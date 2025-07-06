@@ -10,7 +10,14 @@ concurrency: ${{ github.workflow }}-${{ github.ref }}
 jobs:
   release:
     name: Release
+    timeout-minutes: 15
     runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+      contents: write
+      packages: write
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
