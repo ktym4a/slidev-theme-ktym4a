@@ -33,7 +33,8 @@
     "dev": "slidev example.md --open",
     "format": "prettier . --write",
     "format:ci": "prettier . --check",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "release": "changeset publish"
   },
   "peerDependencies": {
     "@slidev/types": ">=0.52.0"
