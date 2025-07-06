@@ -1,5 +1,11 @@
 # @ktym4a/slidev-theme-ktym4a
 
+## 0.1.3
+
+### Patch Changes
+
+- [#11](https://github.com/ktym4a/slidev-theme-ktym4a/pull/11) [`5ccf180`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/5ccf180332742b874a6da06c25894e0453eb7114) Thanks [@ktym4a](https://github.com/ktym4a)! - add README
+
 ## 0.1.2
 
 ### Patch Changes
