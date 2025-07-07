@@ -5,3 +5,4 @@ node_modules
 layout.css
 pnpm-lock.yaml
 index.html
+.changeset

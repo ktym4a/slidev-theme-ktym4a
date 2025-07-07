@@ -15,12 +15,14 @@ A pastel-colored Slidev theme built with Catppuccin palette, designed for develo
 ## Screenshots
 
 ### Rotation Pattern
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/rotation/0.png" width="400" alt="Cover slide with rotation pattern">
   <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/rotation/1.png" width="400" alt="Second slide">
 </div>
 
 ### Single Pattern
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/single/0.png" width="400" alt="Cover slide with single color">
   <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/single/1.png" width="400" alt="Second slide">
