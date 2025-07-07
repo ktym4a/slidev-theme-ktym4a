@@ -30,6 +30,35 @@ theme: '@ktym4a/slidev-theme-ktym4a'
 ---
 ```
 
+## Configuration
+
+### Color Settings
+
+You can customize the theme's color behavior through the frontmatter:
+
+```yaml
+---
+theme: '@ktym4a/slidev-theme-ktym4a'
+themeConfig:
+  baseColor: 'green' # Options: rosewater (default), flamingo, pink, mauve, red, maroon, peach, yellow, green, teal, sky, sapphire, blue, lavender
+  colorPattern: 'rotation' # Options: 'single' or 'rotation' (default)
+---
+```
+
+- **`baseColor`**: Sets the starting color for the theme
+- **`colorPattern`**:
+  - `'single'`: Uses the same color for all slides
+  - `'rotation'`: Automatically cycles through all available colors for each slide (default)
+
+You can also override the color for individual slides if you use `single`:
+
+```yaml
+---
+themeConfig:
+  baseColor: 'red'
+---
+```
+
 ## Layouts
 
 This theme provides the standard Slidev layouts with custom styling:
@@ -37,7 +66,6 @@ This theme provides the standard Slidev layouts with custom styling:
 - `default` - Default layout with header and content
 - `center` - Centered content layout
 - `cover` - Cover page layout
-- `intro` - Introduction slide layout
 - `section` - Section divider layout
 - And all other standard Slidev layouts
 

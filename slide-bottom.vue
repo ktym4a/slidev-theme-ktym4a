@@ -1,22 +1,14 @@
 <script setup lang="ts">
-import { useNav } from '@slidev/client'
-import { getGradient, getRandomNumber } from './utils/color'
-import { ref, watch } from 'vue'
+import { useColor } from './composables/useColor'
 
-const { currentSlideNo } = useNav()
-
-const position = ref(getRandomNumber(15, 45))
-const gradient = ref(getGradient(currentSlideNo.value - 1))
-
-watch(currentSlideNo, () => {
-  position.value = getRandomNumber(15, 45)
-  gradient.value = getGradient(currentSlideNo.value - 1)
-})
+const { bgGradient } = useColor()
 </script>
 
 <template>
   <div class="relative wrapper">
-    <div :class="`gradient fixed inset-0 ${gradient}`"></div>
+    <div
+      :class="`gradient fixed inset-0 from-surface0 to-100% ${bgGradient.gradient} ${bgGradient.direction}`"
+    ></div>
     <div
       class="fixed inset-4 bg-crust/40 rounded-md outline-dashed outline-2 outline-overlay2/40"
     ></div>
@@ -25,6 +17,6 @@ watch(currentSlideNo, () => {
 
 <style>
 .gradient {
-  --un-gradient-from-position: v-bind(`${position}%`);
+  --un-gradient-from-position: v-bind(`${bgGradient.position}%`);
 }
 </style>

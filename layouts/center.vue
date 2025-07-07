@@ -1,20 +1,12 @@
 <script setup lang="ts">
-import { useNav } from '@slidev/client'
-import { getTextColor } from '../utils/color'
-import { ref, watch } from 'vue'
+import { useColor } from '../composables/useColor'
 
-const { currentSlideNo } = useNav()
-
-const textColor = ref(getTextColor(currentSlideNo.value - 1))
-
-watch(currentSlideNo, () => {
-  textColor.value = getTextColor(currentSlideNo.value - 1)
-})
+const { textColor } = useColor()
 </script>
 
 <template>
   <div class="slidev-layout center">
-    <div class="my-auto">
+    <div class="my-auto w-full">
       <slot />
     </div>
   </div>
