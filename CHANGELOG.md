@@ -1,5 +1,15 @@
 # @ktym4a/slidev-theme-ktym4a
 
+## 0.2.1
+
+### Patch Changes
+
+- [#21](https://github.com/ktym4a/slidev-theme-ktym4a/pull/21) [`23ac503`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/23ac5035028a0c21e4d874c25efeb9d3efdc1e1c) Thanks [@ktym4a](https://github.com/ktym4a)! - add optional chaining to safely access theme color properties
+
+- [#18](https://github.com/ktym4a/slidev-theme-ktym4a/pull/18) [`6d14258`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/6d1425883df5152d451c3e8b8d94f8f6239ac316) Thanks [@ktym4a](https://github.com/ktym4a)! - remove all custom font-face declarations from layout.css to simplify styles
+
+- [#20](https://github.com/ktym4a/slidev-theme-ktym4a/pull/20) [`8835d73`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/8835d73d5bab221c15d9dfd2807b1c3163886593) Thanks [@ktym4a](https://github.com/ktym4a)! - Remove favicon configuration from example slides to simplify the examples and focus on theme-specific settings
+
 ## 0.2.0
 
 ### Minor Changes
