@@ -1,5 +1,22 @@
 # @ktym4a/slidev-theme-ktym4a
 
+## 0.2.0
+
+### Minor Changes
+
+- [#17](https://github.com/ktym4a/slidev-theme-ktym4a/pull/17) [`751ca54`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/751ca542fb85d84d3a932471d93c023e369151bb) Thanks [@ktym4a](https://github.com/ktym4a)! - feat: add configurable color patterns for theme customization
+  - Add support for single and rotation color patterns
+  - Allow users to configure baseColor and colorPattern in theme config
+  - Create useColor composable for centralized color management
+  - Split example into rotation and single pattern demos
+  - Update README with configuration documentation
+
+  BREAKING CHANGE: Removed intro layout. Use cover or default layout instead.
+
+### Patch Changes
+
+- [#13](https://github.com/ktym4a/slidev-theme-ktym4a/pull/13) [`ea75355`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/ea75355ea41c4cc388a861ad1224b2acad2f6520) Thanks [@ktym4a](https://github.com/ktym4a)! - update readme
+
 ## 0.1.3
 
 ### Patch Changes
