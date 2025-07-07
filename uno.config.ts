@@ -16,6 +16,6 @@ export default defineConfig({
     colors: generateThemeColors(),
   },
   content: {
-    filesystem: ['utils/color.ts'],
+    filesystem: ['./constant/theme.ts'],
   },
 })

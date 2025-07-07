@@ -5,7 +5,12 @@
   "plugins": ["prettier-plugin-organize-imports"],
   "overrides": [
     {
-      "files": ["slides.md", "pages/*.md", "example.md"],
+      "files": [
+        "slides.md",
+        "pages/*.md",
+        "example-rotation.md",
+        "example-single.md"
+      ],
       "options": {
         "parser": "slidev",
         "plugins": ["prettier-plugin-slidev"]

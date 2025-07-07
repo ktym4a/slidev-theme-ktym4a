@@ -29,8 +29,10 @@
     "slidev": ">=0.52.0"
   },
   "scripts": {
-    "build": "slidev build example.md",
-    "dev": "slidev example.md --open",
+    "build:rotation": "slidev build example-rotation.md",
+    "build:single": "slidev build example-single.md",
+    "dev:rotation": "slidev example-rotation.md",
+    "dev:single": "slidev example-single.md",
     "format": "prettier . --write",
     "format:ci": "prettier . --check",
     "changeset": "changeset",
@@ -56,10 +58,9 @@
   "slidev": {
     "colorSchema": "dark",
     "defaults": {
-      "transition": "fade",
+      "transition": "view-transition",
       "fonts": {
-        "sans": "ml, Inter",
-        "mono": "ml"
+        "sans": "Inter"
       }
     }
   },
