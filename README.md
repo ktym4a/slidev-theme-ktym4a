@@ -9,15 +9,22 @@ A pastel-colored Slidev theme built with Catppuccin palette, designed for develo
 - 🎨 **Catppuccin Palette** - Beautiful pastel colors that are easy on the eyes
 - 🌗 **Dark Mode** - Optimized for dark environments
 - 🎯 **Minimal Design** - Focus on content without distractions
+- 🔄 **Color Patterns** - Choose between single color or automatic color rotation
+- 🎨 **14 Theme Colors** - All Catppuccin colors available
 
 ## Screenshots
 
+### Rotation Pattern
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/0.png" width="400" alt="Cover slide">
-  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/1.png" width="400" alt="Introduction slide">
-  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/2.png" width="400" alt="Navigation slide">
-  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/3.png" width="400" alt="Code highlight slide">
-  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/4.png" width="400" alt="Center layout slide">
+  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/rotation/0.png" width="400" alt="Cover slide with rotation pattern">
+  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/rotation/1.png" width="400" alt="Second slide">
+</div>
+
+### Single Pattern
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/single/0.png" width="400" alt="Cover slide with single color">
+  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/single/1.png" width="400" alt="Second slide">
+  <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/single/4.png" width="400" alt="Override example">
 </div>
 
 ## Install
