@@ -16,13 +16,13 @@ const useColor = () => {
 
   const baseColor = computed<Color>(
     () =>
-      ($slidev.themeConfigs?.baseColor.toString().toLowerCase() as Color) ||
+      ($slidev.themeConfigs?.baseColor?.toString().toLowerCase() as Color) ||
       COLORS[0],
   )
   const colorPattern = computed<Pattern>(
     () =>
       ($slidev.themeConfigs?.colorPattern
-        .toString()
+        ?.toString()
         .toLowerCase() as Pattern) || 'rotation',
   )
 
