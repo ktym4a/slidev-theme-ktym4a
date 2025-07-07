@@ -1,6 +1,5 @@
 ---
 theme: ./
-favicon: '/assets/favicon.svg'
 themeConfig:
   baseColor: 'sapphire'
   colorPattern: 'single'
