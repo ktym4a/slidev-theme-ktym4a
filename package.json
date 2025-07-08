@@ -58,7 +58,7 @@
   "slidev": {
     "colorSchema": "dark",
     "defaults": {
-      "transition": "view-transition",
+      "transition": "fade",
       "fonts": {
         "sans": "Inter"
       }
