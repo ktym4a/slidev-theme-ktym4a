@@ -1,5 +1,11 @@
 # @ktym4a/slidev-theme-ktym4a
 
+## 0.3.1
+
+### Patch Changes
+
+- [#24](https://github.com/ktym4a/slidev-theme-ktym4a/pull/24) [`a763063`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/a763063451a15c14817eb01022cde33ea42c95a4) Thanks [@ktym4a](https://github.com/ktym4a)! - update font weight to bold and extrabold for improved headings
+
 ## 0.3.0
 
 ### Minor Changes
