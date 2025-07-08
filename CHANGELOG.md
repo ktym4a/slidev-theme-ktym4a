@@ -1,5 +1,11 @@
 # @ktym4a/slidev-theme-ktym4a
 
+## 0.3.0
+
+### Minor Changes
+
+- [#22](https://github.com/ktym4a/slidev-theme-ktym4a/pull/22) [`9ee5d33`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/9ee5d338d1dedabfaac7d2e5c3eff3f06189aea8) Thanks [@ktym4a](https://github.com/ktym4a)! - add statemewnt, iframe-right, section slide layouts
+
 ## 0.2.1
 
 ### Patch Changes
