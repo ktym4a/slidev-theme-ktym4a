@@ -3,7 +3,7 @@
     .slidev-page {
       --at-apply: px-4 py-4 h-full text-text text-xl rounded-md overflow-hidden;
     }
-    .grid-cols-2 > *:last-child {
+    .grid-cols-2 > :not(.slidev-layout) {
       position: relative;
     }
 
@@ -58,7 +58,22 @@
     .slidev-layout.center {
       --at-apply: grid place-items-center text-center;
       h1 {
+        --at-apply: text-6xl leading-16 mx-0 mb-0;
+      }
+    }
+    .slidev-layout.section {
+      --at-apply: grid place-items-center text-center;
+      h1 {
         --at-apply: text-6xl leading-16 mx-0 before:content-none mb-0;
+      }
+    }
+    .slidev-layout.statement {
+      --at-apply: grid place-items-center text-center;
+      h1 {
+        --at-apply: text-8xl leading-16 mx-0 before:content-none mb-0;
+      }
+      h1 + p {
+        --at-apply: mt-1 leading-14 text-3xl;
       }
     }
     .slidev-layout.cover {
