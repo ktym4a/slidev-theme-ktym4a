@@ -82,6 +82,7 @@ themeConfig:
 This theme provides the following layouts:
 
 ### Standard Layouts (with custom styling)
+
 - `default` - Default layout with header and content
 - `center` - Centered content layout
 - `cover` - Cover page layout
@@ -96,7 +97,9 @@ All layouts support the theme's color customization and will automatically adapt
 The theme is built on the Catppuccin color palette. The color scheme is optimized for dark mode.
 
 ### Available Colors
+
 All 14 Catppuccin colors are available:
+
 - `rosewater` (default)
 - `flamingo`
 - `pink`
