@@ -17,7 +17,7 @@
       }
 
       h1 {
-        --at-apply: text-5xl font-black mb-4 before:content-['#'] leading-16;
+        --at-apply: text-5xl font-bold mb-4 before:content-['#'] leading-16;
       }
 
       h2 {
@@ -70,7 +70,7 @@
     .slidev-layout.statement {
       --at-apply: grid place-items-center text-center;
       h1 {
-        --at-apply: text-8xl leading-16 mx-0 before:content-none mb-0;
+        --at-apply: text-8xl leading-16 font-extrabold mx-0 before:content-none mb-0;
       }
       h1 + p {
         --at-apply: mt-1 leading-14 text-3xl;
