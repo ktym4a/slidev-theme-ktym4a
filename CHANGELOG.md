@@ -1,5 +1,11 @@
 # @ktym4a/slidev-theme-ktym4a
 
+## 0.3.2
+
+### Patch Changes
+
+- [#26](https://github.com/ktym4a/slidev-theme-ktym4a/pull/26) [`fffc5b7`](https://github.com/ktym4a/slidev-theme-ktym4a/commit/fffc5b7870a115e7c34c383db92d4ebc61b2b792) Thanks [@ktym4a](https://github.com/ktym4a)! - Change default transition from view-transition to fade for better browser compatibility
+
 ## 0.3.1
 
 ### Patch Changes
