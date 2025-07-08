@@ -4,6 +4,10 @@ A pastel-colored Slidev theme built with Catppuccin palette, designed for develo
 
 [![NPM version](https://img.shields.io/npm/v/@ktym4a/slidev-theme-ktym4a?color=3AB9D4&label=)](https://www.npmjs.com/package/@ktym4a/slidev-theme-ktym4a)
 
+## Live Demo
+
+🎨 [Single Color Pattern Demo](https://slides.ktym4a.me/demo/single) | 🔄 [Rotation Pattern Demo](https://slides.ktym4a.me/demo/rotation)
+
 ## Features
 
 - 🎨 **Catppuccin Palette** - Beautiful pastel colors that are easy on the eyes
@@ -11,10 +15,13 @@ A pastel-colored Slidev theme built with Catppuccin palette, designed for develo
 - 🎯 **Minimal Design** - Focus on content without distractions
 - 🔄 **Color Patterns** - Choose between single color or automatic color rotation
 - 🎨 **14 Theme Colors** - All Catppuccin colors available
+- 🎭 **Smooth Transitions** - Default fade transition for seamless slide changes
 
 ## Screenshots
 
 ### Rotation Pattern
+
+[🔄 View Live Demo](https://slides.ktym4a.me/demo/rotation)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/rotation/0.png" width="400" alt="Cover slide with rotation pattern">
@@ -22,6 +29,8 @@ A pastel-colored Slidev theme built with Catppuccin palette, designed for develo
 </div>
 
 ### Single Pattern
+
+[🎨 View Live Demo](https://slides.ktym4a.me/demo/single)
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ktym4a/slidev-theme-ktym4a/main/example-export/single/0.png" width="400" alt="Cover slide with single color">
@@ -70,21 +79,41 @@ themeConfig:
 
 ## Layouts
 
-This theme provides the standard Slidev layouts with custom styling:
+This theme provides the following layouts:
+
+### Standard Layouts (with custom styling)
 
 - `default` - Default layout with header and content
 - `center` - Centered content layout
 - `cover` - Cover page layout
 - `section` - Section divider layout
-- And all other standard Slidev layouts
+- `iframe-right` - Layout with content on the left and iframe on the right
+- `statement` - Centered statement layout for impactful quotes or key messages
 
-### Upcoming Layouts
-
-We're planning to add more custom layouts in future updates.
+All layouts support the theme's color customization and will automatically adapt to your color settings.
 
 ## Colors
 
 The theme is built on the Catppuccin color palette. The color scheme is optimized for dark mode.
+
+### Available Colors
+
+All 14 Catppuccin colors are available:
+
+- `rosewater` (default)
+- `flamingo`
+- `pink`
+- `mauve`
+- `red`
+- `maroon`
+- `peach`
+- `yellow`
+- `green`
+- `teal`
+- `sky`
+- `sapphire`
+- `blue`
+- `lavender`
 
 ## License
 
